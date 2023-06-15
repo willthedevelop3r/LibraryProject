@@ -1,12 +1,10 @@
-## Function instructions
+# Library App
 
-The following functions can be completed in whichever order you choose. There are difficult problems associated with each page, so feel free to skip around as you work your way up to solving more challenging problems!
+## About
 
----
+For this project, I assembled the functionality of an application that allows users to search, review and check out books from their local neighborhood.
 
 ### Account functions
-
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/11c23e4622a87eab216668be31c759ac-image.png)
 
 #### findAccountById()
 
@@ -120,11 +118,7 @@ getBooksPossessedByAccount(account, books, authors);
 */
 ```
 
----
-
 ### Book functions
-
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/9012c8115fddba330e4958c3a907bcaa-image.png)
 
 #### findAuthorById()
 
@@ -231,8 +225,6 @@ The `getBorrowersForBook()` function in `public/src/books.js` has two parameters
 - A book object.
 - An array of all account objects.
 
-It should return an array of ten or fewer account objects that represents the accounts given by the IDs in the provided book's `borrows` array. However, each account object should include the `returned` entry from the corresponding transaction object in the `borrows` array.
-
 **Example:**
 
 ```javascript
@@ -269,11 +261,7 @@ getBorrowersForBook(book, accounts);
 */
 ```
 
----
-
 ## Home functions
-
-![image.png](//res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/6e9b6e3b27d21cff7c80cd9efec9c421-image.png)
 
 ### getTotalBooksCount()
 
@@ -404,7 +392,3 @@ getMostPopularAuthors(books, authors);
   ]
 */
 ```
-
-### Create a helper function
-
-A helper function is a function that executes part of the logic of another function. Helper functions make your programs easier to understand by letting you give descriptive names to computations and reuse them. For this exercise, create at least one helper method for any of the functions that you implemented for this assignment.
